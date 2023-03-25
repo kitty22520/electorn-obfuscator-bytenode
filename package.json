@@ -22,7 +22,6 @@
     "changeexe": "^1.0.2",
     "fs": "0.0.1-security",
     "iconv-jschardet": "^2.0.32",
-    "path": "^0.12.7",
-    "superagent": "^8.0.9"
+    "path": "^0.12.7"
   }
 }

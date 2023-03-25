@@ -1,0 +1,9 @@
+{
+    "ico": "./icon/icon.ico",
+    "productName": "企业直播管家",
+    "productVersion": "0.0.0.1",
+    "companyName": "小目标",
+    "fileDescription": "企业直播管家",
+    "link": "https://xingtu.yunjiofo.com",
+    "dir": "live"
+}

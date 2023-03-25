@@ -1,0 +1,28 @@
+{
+  "name": "life",
+  "version": "1.0.0",
+  "description": "life",
+  "main": "dist/app.js",
+  "author": "Jane Doe",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron ./src/main.js",
+    "start": "electron ./dist/main.js",
+    "build": "electron ./build.js",
+    "pack": "makensis ./build/build.nsi"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1",
+    "asar": "^3.2.0",
+    "electron": "^23.1.1",
+    "javascript-obfuscator": "^4.0.2"
+  },
+  "dependencies": {
+    "bytenode": "^1.3.7",
+    "changeexe": "^1.0.2",
+    "fs": "0.0.1-security",
+    "iconv-jschardet": "^2.0.32",
+    "path": "^0.12.7",
+    "superagent": "^8.0.9"
+  }
+}
